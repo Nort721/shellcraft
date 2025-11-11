@@ -1,0 +1,14 @@
+# Core (required)
+cryptography>=41.0.0
+
+# AI Providers (install what you need)
+anthropic>=0.39.0      # Claude
+openai>=1.0.0          # ChatGPT
+google-generativeai>=0.3.0  # Gemini
+requests>=2.31.0       # Ollama (local models)
+
+# Quick install options:
+# pip install cryptography anthropic        # Claude only
+# pip install cryptography openai           # OpenAI only  
+# pip install cryptography requests         # Ollama only
+# pip install -r requirements.txt           # All providers
